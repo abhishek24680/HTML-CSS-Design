@@ -1,0 +1,33 @@
+@media screen and (max-width: 1000px) {
+    nav ul {
+        flex-direction: row;
+    }
+    nav ul li {
+        visibility: collapse;
+    }
+    .imgPara {
+        flex-direction: column;
+        align-items: center;
+    }
+    footer {
+        flex-direction: column;
+    }
+    .left-column {
+        width: 100%;
+        padding: 0;
+    }
+    .right-column {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 1390px) {
+    body {
+        position: relative;
+        overflow-x: hidden;
+    }
+    nav ul li {
+        visibility: collapse;
+    }
+}
